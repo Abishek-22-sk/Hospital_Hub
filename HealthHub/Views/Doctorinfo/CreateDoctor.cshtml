@@ -1,0 +1,40 @@
+﻿@using HealthHub.Models
+@model DoctorModel
+<div class="container">
+	<div class="row">
+		<div style="margin-bottom: 20px"></div>
+		<div class="col-md-12 border-1 border">
+			<form method="post" enctype="multipart/form-data">
+				<div class="mb-3">
+					<div style="margin-bottom: 10px"></div>
+					<label asp-for="@Model.DoctorName" class="form-label"></label>
+
+					<input asp-for="@Model.DoctorName" placeholder="DoctorName" class="form-control" />
+					<span asp-validation-for="@Model.DoctorName" class="text-danger"></span>
+					</<div>
+						<div class="mb-3">
+							<div style="margin-bottom: 10px"></div>
+
+							<label asp-for="@Model.PhoneNumber" class="form-label"></label>
+							<input asp-for="@Model.PhoneNumber" placeholder="EstablishedYear" class="form-control" />
+							<span asp-validation-for="@Model.PhoneNumber" class="text-danger"></span>
+
+							</<div>
+								<div class="mb-3">
+									<div style="margin-bottom: 10px"></div>
+									</<div>
+										<div style="margin-bottom: 20px"></div>
+										<div class="mb-3">
+											<a asp-controller="Brand" asp-action="Index" class="btn btn-danger">Back</a>
+											<button type="submit" class="btn btn-success">Create</button>
+
+										</div>
+									</div>
+			</form>
+		</div>
+	</div>
+</div>
+@section Scripts
+{
+	<partial name="_ValidationScriptsPartial" />
+}
