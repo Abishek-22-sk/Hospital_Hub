@@ -1,18 +1,184 @@
 [
   {
-    "ContainingType": "HealthHub.NewFolder.DoctorController",
-    "Method": "Index",
-    "RelativePath": "api",
-    "HttpMethod": "",
+    "ContainingType": "HealthHub.Controller.HospitalController",
+    "Method": "CreateHospital",
+    "RelativePath": "api/Controller/CreateHospital",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospitalModel",
+        "Type": "HealthHub.Models.HospitalModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthHub.Models.HospitalModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthHub.Controller.HospitalController",
+    "Method": "DisableHospital",
+    "RelativePath": "api/Controller/DisableHospitals",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospitalId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthHub.Controller.HospitalController",
+    "Method": "EnableHospital",
+    "RelativePath": "api/Controller/EnableHospitals",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospitalId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthHub.Controller.HospitalController",
+    "Method": "GetHospital",
+    "RelativePath": "api/Controller/GetHospital",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospitalId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthHub.Models.HospitalModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthHub.Controller.HospitalController",
+    "Method": "GetHospitals",
+    "RelativePath": "api/Controller/GetHospitals",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "HealthHub.Models.HospitalModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthHub.Controller.HospitalController",
+    "Method": "HardHospitalAsDelete",
+    "RelativePath": "api/Controller/HardDeleteHospitals",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospitalId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthHub.Controller.HospitalController",
+    "Method": "MarkHospitalAsDelete",
+    "RelativePath": "api/Controller/SoftDeleteHospitals",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospitalId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "HealthHub.NewFolder.DoctorController",
     "Method": "CreateDoctor",
-    "RelativePath": "api",
+    "RelativePath": "api/Createdoctor",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -38,7 +204,7 @@
   {
     "ContainingType": "HealthHub.NewFolder.DoctorController",
     "Method": "GetDoctor",
-    "RelativePath": "api",
+    "RelativePath": "api/doctor",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -52,6 +218,84 @@
     "ReturnTypes": [
       {
         "Type": "HealthHub.Models.DoctorModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthHub.NewFolder.DoctorController",
+    "Method": "GetDoctorsbyHospitalId",
+    "RelativePath": "api/Getdoctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospitalId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HealthHub.Models.DoctorModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthHub.NewFolder.DoctorController",
+    "Method": "HardDeleteDoctorRecord",
+    "RelativePath": "api/hardDeleteDoctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HealthHub.NewFolder.DoctorController",
+    "Method": "SoftDeleteDoctorRecord",
+    "RelativePath": "api/softDeleteDoctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
         "MediaTypes": [
           "text/plain",
           "application/json",

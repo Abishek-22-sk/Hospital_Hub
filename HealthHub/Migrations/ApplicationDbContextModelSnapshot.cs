@@ -37,13 +37,16 @@ namespace HealthHub.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<long?>("HospitalId")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
                     b.Property<long>("PhoneNumber")
                         .HasColumnType("bigint");
 
-                    b.Property<long>("SpecialistId")
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("SpecialistModelSpecialistId")
+                    b.Property<long?>("SpecialistId")
                         .HasColumnType("bigint");
 
                     b.Property<string>("Specialization")
@@ -52,9 +55,119 @@ namespace HealthHub.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("SpecialistModelSpecialistId");
+                    b.HasIndex("HospitalId");
 
-                    b.ToTable("Doctors");
+                    b.HasIndex("SpecialistId");
+
+                    b.ToTable("Doctor");
+                });
+
+            modelBuilder.Entity("HealthHub.Models.HospitalModel", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<long>("AvailableBeds")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("HospitalName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<long>("PhoneNumber")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("RegistrationNumber")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<long>("TotalBeds")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Hospital");
+                });
+
+            modelBuilder.Entity("HealthHub.Models.PatientModel", b =>
+                {
+                    b.Property<long>("PatientId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("PatientId"));
+
+                    b.Property<long>("DoctorId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("HospitalId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PatientId");
+
+                    b.HasIndex("DoctorId");
+
+                    b.HasIndex("HospitalId");
+
+                    b.ToTable("Patient");
+                });
+
+            modelBuilder.Entity("HealthHub.Models.ReturnModel.UserModel", b =>
+                {
+                    b.Property<long>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("UserId"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long?>("HospitalId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId");
+
+                    b.HasIndex("HospitalId");
+
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("HealthHub.Models.SpecialistModel", b =>
@@ -65,12 +178,19 @@ namespace HealthHub.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("SpecialistId"));
 
-                    b.Property<string>("SpecialistName")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("SurgeryCount")
-                        .HasColumnType("float");
+                    b.Property<long>("DoctorId")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SpecialistName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("SpecialistId");
 
@@ -79,13 +199,45 @@ namespace HealthHub.Migrations
 
             modelBuilder.Entity("HealthHub.Models.DoctorModel", b =>
                 {
-                    b.HasOne("HealthHub.Models.SpecialistModel", "SpecialistModel")
+                    b.HasOne("HealthHub.Models.HospitalModel", "hospital")
                         .WithMany()
-                        .HasForeignKey("SpecialistModelSpecialistId")
+                        .HasForeignKey("HospitalId");
+
+                    b.HasOne("HealthHub.Models.SpecialistModel", "Specialist")
+                        .WithMany()
+                        .HasForeignKey("SpecialistId");
+
+                    b.Navigation("Specialist");
+
+                    b.Navigation("hospital");
+                });
+
+            modelBuilder.Entity("HealthHub.Models.PatientModel", b =>
+                {
+                    b.HasOne("HealthHub.Models.DoctorModel", "Doctor")
+                        .WithMany()
+                        .HasForeignKey("DoctorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("SpecialistModel");
+                    b.HasOne("HealthHub.Models.HospitalModel", "Hospital")
+                        .WithMany()
+                        .HasForeignKey("HospitalId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Doctor");
+
+                    b.Navigation("Hospital");
+                });
+
+            modelBuilder.Entity("HealthHub.Models.ReturnModel.UserModel", b =>
+                {
+                    b.HasOne("HealthHub.Models.HospitalModel", "hospital")
+                        .WithMany()
+                        .HasForeignKey("HospitalId");
+
+                    b.Navigation("hospital");
                 });
 #pragma warning restore 612, 618
         }

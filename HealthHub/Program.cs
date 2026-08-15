@@ -1,5 +1,11 @@
+using System.Text;
 using HealthHub;
+using HealthHub.Component;
+using HealthHub.Repository;
+using HealthHub.Service;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,8 +14,17 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<HospitalService>();
+builder.Services.AddScoped<HospitalRepository>();
+builder.Services.AddScoped<DoctorService>();
+builder.Services.AddScoped<CommonRegex>();
+builder.Services.AddScoped<DoctorRepository>();
+builder.Services.AddScoped<JwtService>();
 var app = builder.Build();
-
+app.UseSwagger();
+app.UseSwaggerUI();
 using (var scope = app.Services.CreateScope())
 {
     var service = scope.ServiceProvider;
@@ -38,7 +53,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();

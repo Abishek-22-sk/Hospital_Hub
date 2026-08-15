@@ -169,3 +169,10 @@ C:\Asp.net\HealthHub\HealthHub\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.S
 C:\Asp.net\HealthHub\HealthHub\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Asp.net\HealthHub\HealthHub\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Asp.net\HealthHub\HealthHub\obj\Debug\net8.0\HealthHub.csproj.Up2Date
+C:\Asp.net\HealthHub\HealthHub\obj\Debug\net8.0\HealthHub.sourcelink.json
+C:\Asp.net\HealthHub\HealthHub\obj\Debug\net8.0\HealthHub.MvcApplicationPartsAssemblyInfo.cs
+C:\Asp.net\HealthHub\HealthHub\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Asp.net\HealthHub\HealthHub\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Asp.net\HealthHub\HealthHub\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Asp.net\HealthHub\HealthHub\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Asp.net\HealthHub\HealthHub\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

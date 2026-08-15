@@ -22,5 +22,20 @@ namespace HealthHub.Service
         {
             return await doctorRepository.GetDoctorByIdAsync(doctorId);
         }
+
+        public async Task<bool> HardDeleteDoctorRecordAsync(long doctorId)
+        {
+            return await doctorRepository.HardDeleteDoctorRecordAsync(doctorId);
+        }
+
+        public async Task<bool> SoftDeleteDoctorRecordAsync(long doctorId)
+        {
+            return await doctorRepository.SoftDeleteDoctorRecordAsync(doctorId);
+        }
+
+        public async Task<DoctorModel> GetDoctorByHospitalIdAsync(long doctorId)
+        {
+            return await doctorRepository.GetDoctorByHospitalIdAsync(doctorId);
+        }
     }
 }

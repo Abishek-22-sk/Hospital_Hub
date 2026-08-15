@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace HealthHub.Models
 {
@@ -15,8 +17,18 @@ namespace HealthHub.Models
 
         public long PhoneNumber { get; set; }
 
-        public long SpecialistId { get; set; }
+        public bool IsDelete { get; set; }
 
-        public SpecialistModel SpecialistModel { get; set; }
+        public long? SpecialistId { get; set; }
+
+        [ForeignKey("SpecialistId")]
+        [JsonIgnore]
+        public SpecialistModel Specialist { get; set; }
+
+        public long? HospitalId { get; set; }
+
+        [ForeignKey("HospitalId")]
+        [JsonIgnore]
+        public HospitalModel hospital { get; set; }
     }
 }

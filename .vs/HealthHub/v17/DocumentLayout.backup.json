@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Asp.net\\HealthHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\views\\doctorinfo\\createdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\views\\doctorinfo\\createdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\service\\hospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\service\\hospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\models\\returnmodel\\returnmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\models\\returnmodel\\returnmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\models\\hospitalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\models\\hospitalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\component\\commonregex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\component\\commonregex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\service\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\service\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\controller\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\controller\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\views\\doctorinfo\\createdoctor.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\views\\doctorinfo\\createdoctor.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,36 +39,80 @@
       "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\repository\\hospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\repository\\hospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\models\\doctormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\models\\doctormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201081846_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HealthHub\\Migrations\\20260201081846_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201081359_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HealthHub\\Migrations\\20260201081359_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201080525_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HealthHub\\Migrations\\20260201080525_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201080650_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HealthHub\\Migrations\\20260201080650_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\models\\specialistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\models\\specialistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\disetup\\disetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\disetup\\disetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201075610_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HealthHub\\Migrations\\20260201075610_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\service\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\service\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\healthhub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\healthhub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\models\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\models\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260110164134_Healthhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HealthHub\\Migrations\\20260110164134_Healthhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260110161439_Healthhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HealthHub\\Migrations\\20260110161439_Healthhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|c:\\asp.net\\healthhub\\healthhub\\migrations\\20260201082052_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175ADC7A-5B00-4466-8AC9-BBE32B33F453}|HealthHub\\HealthHub.csproj|solutionrelative:healthhub\\migrations\\20260201082052_hospitalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 400,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,93 +134,333 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "HealthHub\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "HealthHub\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-23T02:14:33.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateDoctor.cshtml.cs",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Views\\Doctorinfo\\CreateDoctor.cshtml.cs",
-              "RelativeDocumentMoniker": "HealthHub\\Views\\Doctorinfo\\CreateDoctor.cshtml.cs",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Views\\Doctorinfo\\CreateDoctor.cshtml.cs",
-              "RelativeToolTip": "HealthHub\\Views\\Doctorinfo\\CreateDoctor.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ReturnModel.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\ReturnModel\\ReturnModel.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Models\\ReturnModel\\ReturnModel.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\ReturnModel\\ReturnModel.cs",
+              "RelativeToolTip": "HealthHub\\Models\\ReturnModel\\ReturnModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T22:18:53.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateDoctor.cshtml",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Views\\Doctorinfo\\CreateDoctor.cshtml",
-              "RelativeDocumentMoniker": "HealthHub\\Views\\Doctorinfo\\CreateDoctor.cshtml",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Views\\Doctorinfo\\CreateDoctor.cshtml",
-              "RelativeToolTip": "HealthHub\\Views\\Doctorinfo\\CreateDoctor.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-21T22:07:02.971Z",
+              "WhenOpened": "2026-04-17T17:03:58.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "HealthHub\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Pages\\Index.cshtml",
-              "RelativeToolTip": "HealthHub\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-21T13:35:39.565Z"
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Program.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Program.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Program.cs",
+              "RelativeToolTip": "HealthHub\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T17:18:27.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SpecialistModel.cs",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\SpecialistModel.cs",
-              "RelativeDocumentMoniker": "HealthHub\\Models\\SpecialistModel.cs",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\SpecialistModel.cs",
-              "RelativeToolTip": "HealthHub\\Models\\SpecialistModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Service\\DoctorService.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Service\\DoctorService.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Service\\DoctorService.cs",
+              "RelativeToolTip": "HealthHub\\Service\\DoctorService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T09:25:41.294Z"
+              "WhenOpened": "2025-11-11T16:49:53.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Repository\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Repository\\DoctorRepository.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Repository\\DoctorRepository.cs",
+              "RelativeToolTip": "HealthHub\\Repository\\DoctorRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T16:39:35.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommonRegex.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Component\\CommonRegex.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Component\\CommonRegex.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Component\\CommonRegex.cs",
+              "RelativeToolTip": "HealthHub\\Component\\CommonRegex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T17:05:21.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HospitalModel.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\HospitalModel.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Models\\HospitalModel.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\HospitalModel.cs",
+              "RelativeToolTip": "HealthHub\\Models\\HospitalModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T05:55:36.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HospitalService.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Service\\HospitalService.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Service\\HospitalService.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Service\\HospitalService.cs",
+              "RelativeToolTip": "HealthHub\\Service\\HospitalService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAMwFcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T13:43:30.283Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "DoctorModel.cs",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\DoctorModel.cs",
-              "RelativeDocumentMoniker": "HealthHub\\Models\\DoctorModel.cs",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\DoctorModel.cs",
-              "RelativeToolTip": "HealthHub\\Models\\DoctorModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "HealthHub\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\ApplicationDbContext.cs",
+              "RelativeToolTip": "HealthHub\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T16:42:26.07Z"
+              "WhenOpened": "2026-02-01T07:56:21.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DoctorController.cs",
               "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Controller\\DoctorController.cs",
               "RelativeDocumentMoniker": "HealthHub\\Controller\\DoctorController.cs",
               "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Controller\\DoctorController.cs",
               "RelativeToolTip": "HealthHub\\Controller\\DoctorController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T16:25:49.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T16:25:49.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\appsettings.json",
+              "RelativeDocumentMoniker": "HealthHub\\appsettings.json",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\appsettings.json",
+              "RelativeToolTip": "HealthHub\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T15:55:08.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "HealthHub\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Pages\\Index.cshtml",
+              "RelativeToolTip": "HealthHub\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-21T13:35:39.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DoctorModel.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\DoctorModel.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Models\\DoctorModel.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\DoctorModel.cs",
+              "RelativeToolTip": "HealthHub\\Models\\DoctorModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T16:42:26.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HospitalRepository.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Repository\\HospitalRepository.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Repository\\HospitalRepository.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Repository\\HospitalRepository.cs",
+              "RelativeToolTip": "HealthHub\\Repository\\HospitalRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T13:44:28.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\UserModel.cs",
+              "RelativeToolTip": "HealthHub\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T06:45:09.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260201081846_hospitalhub.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201081846_hospitalhub.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Migrations\\20260201081846_hospitalhub.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201081846_hospitalhub.cs",
+              "RelativeToolTip": "HealthHub\\Migrations\\20260201081846_hospitalhub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:18:46.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260201082052_hospitalhub.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201082052_hospitalhub.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Migrations\\20260201082052_hospitalhub.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201082052_hospitalhub.cs",
+              "RelativeToolTip": "HealthHub\\Migrations\\20260201082052_hospitalhub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:20:52.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260201081359_hospitalhub.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201081359_hospitalhub.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Migrations\\20260201081359_hospitalhub.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201081359_hospitalhub.cs",
+              "RelativeToolTip": "HealthHub\\Migrations\\20260201081359_hospitalhub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:14:00.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260201080525_hospitalhub.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201080525_hospitalhub.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Migrations\\20260201080525_hospitalhub.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201080525_hospitalhub.cs",
+              "RelativeToolTip": "HealthHub\\Migrations\\20260201080525_hospitalhub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:05:25.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20260201080650_hospitalhub.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201080650_hospitalhub.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Migrations\\20260201080650_hospitalhub.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201080650_hospitalhub.cs",
+              "RelativeToolTip": "HealthHub\\Migrations\\20260201080650_hospitalhub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:06:50.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SpecialistModel.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\SpecialistModel.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Models\\SpecialistModel.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\SpecialistModel.cs",
+              "RelativeToolTip": "HealthHub\\Models\\SpecialistModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T09:25:41.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260201075610_hospitalhub.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201075610_hospitalhub.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Migrations\\20260201075610_hospitalhub.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260201075610_hospitalhub.cs",
+              "RelativeToolTip": "HealthHub\\Migrations\\20260201075610_hospitalhub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T07:56:11.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Service\\JwtService.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Service\\JwtService.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Service\\JwtService.cs",
+              "RelativeToolTip": "HealthHub\\Service\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T05:34:04.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PatientModel.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\PatientModel.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Models\\PatientModel.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Models\\PatientModel.cs",
+              "RelativeToolTip": "HealthHub\\Models\\PatientModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T14:28:18.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20260110164134_Healthhub.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260110164134_Healthhub.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Migrations\\20260110164134_Healthhub.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260110164134_Healthhub.cs",
+              "RelativeToolTip": "HealthHub\\Migrations\\20260110164134_Healthhub.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:41:35.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20260110161439_Healthhub.cs",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260110161439_Healthhub.cs",
+              "RelativeDocumentMoniker": "HealthHub\\Migrations\\20260110161439_Healthhub.cs",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Migrations\\20260110161439_Healthhub.cs",
+              "RelativeToolTip": "HealthHub\\Migrations\\20260110161439_Healthhub.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:14:39.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "HealthHub\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Pages\\Error.cshtml",
+              "RelativeToolTip": "HealthHub\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-04T12:18:08.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "HealthHub\\appsettings.Development.json",
+              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\appsettings.Development.json",
+              "RelativeToolTip": "HealthHub\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T15:55:07.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Pages\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "HealthHub\\Pages\\Shared\\_Layout.cshtml.css",
@@ -183,100 +471,8 @@
               "WhenOpened": "2025-12-23T02:14:32.038Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "HealthHub\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\ApplicationDbContext.cs",
-              "RelativeToolTip": "HealthHub\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T17:22:14.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DISetUp.cs",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\DiSetUp\\DISetUp.cs",
-              "RelativeDocumentMoniker": "HealthHub\\DiSetUp\\DISetUp.cs",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\DiSetUp\\DISetUp.cs",
-              "RelativeToolTip": "HealthHub\\DiSetUp\\DISetUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T06:14:27.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Program.cs",
-              "RelativeDocumentMoniker": "HealthHub\\Program.cs",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Program.cs",
-              "RelativeToolTip": "HealthHub\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T17:18:27.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HealthHub.csproj",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\HealthHub.csproj",
-              "RelativeDocumentMoniker": "HealthHub\\HealthHub.csproj",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\HealthHub.csproj",
-              "RelativeToolTip": "HealthHub\\HealthHub.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-11T01:43:17.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DoctorService.cs",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Service\\DoctorService.cs",
-              "RelativeDocumentMoniker": "HealthHub\\Service\\DoctorService.cs",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Service\\DoctorService.cs",
-              "RelativeToolTip": "HealthHub\\Service\\DoctorService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAArwBQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T16:49:53.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DoctorRepository.cs",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\Repository\\DoctorRepository.cs",
-              "RelativeDocumentMoniker": "HealthHub\\Repository\\DoctorRepository.cs",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\Repository\\DoctorRepository.cs",
-              "RelativeToolTip": "HealthHub\\Repository\\DoctorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T16:39:35.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\appsettings.json",
-              "RelativeDocumentMoniker": "HealthHub\\appsettings.json",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\appsettings.json",
-              "RelativeToolTip": "HealthHub\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-05T15:55:08.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Asp.net\\HealthHub\\HealthHub\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "HealthHub\\appsettings.Development.json",
-              "ToolTip": "C:\\Asp.net\\HealthHub\\HealthHub\\appsettings.Development.json",
-              "RelativeToolTip": "HealthHub\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-05T15:55:07.177Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

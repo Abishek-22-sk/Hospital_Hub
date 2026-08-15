@@ -9,7 +9,12 @@ namespace HealthHub.Models
 
         public string SpecialistName { get; set; }
 
-        public double  SurgeryCount { get; set; }
+        public string Description { get; set; }
+
+        public bool IsDelete { get; set; }
+
+        public long DoctorId { get; set; }
 
     }
+
 }

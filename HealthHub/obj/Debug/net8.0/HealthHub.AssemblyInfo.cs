@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HealthHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdea02b6d0e9c249f948647fcd5c9f8c570eb899")]
 [assembly: System.Reflection.AssemblyProductAttribute("HealthHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HealthHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

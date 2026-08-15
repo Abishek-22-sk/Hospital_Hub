@@ -15,6 +15,8 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
 build_property.RootNamespace = HealthHub
 build_property.RootNamespace = HealthHub
 build_property.ProjectDir = C:\Asp.net\HealthHub\HealthHub\
@@ -50,10 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Asp.net/HealthHub/HealthHub/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Asp.net/HealthHub/HealthHub/Views/Doctorinfo/CreateDoctor.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yaW5mb1xDcmVhdGVEb2N0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Asp.net/HealthHub/HealthHub/Pages/Shared/_Layout.cshtml]
